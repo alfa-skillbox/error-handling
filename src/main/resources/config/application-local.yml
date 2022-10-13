@@ -1,0 +1,12 @@
+server:
+    port: 9999
+
+errors:
+    handling:
+        enabled: true
+    repositories:
+        properties:
+            errors:
+                validationErrorInnerCode: "Ошибка валидации запроса"
+                internalErrorInnerCode: "Внутренняя ошиба сервера"
+                businessErrorInnerCode: "Внутренняя бизнес ошибка"
